@@ -1,0 +1,17 @@
+# core
+fastapi
+uvicorn
+websockets
+pydantic
+python-jose
+redis
+aiohttp
+langchain
+langchain-core
+langchain-community
+# LLM / agent frameworks
+ollama            # Ollama python client (install from pip or GitHub; check docs). :contentReference[oaicite:4]{index=4}
+langgraph        # LangGraph for orchestrator workflows. :contentReference[oaicite:5]{index=5}
+crewai            # CrewAI runtime. If install fails, use the fallback agent loop in the files. :contentReference[oaicite:6]{index=6}
+# utilities
+python-dotenv
